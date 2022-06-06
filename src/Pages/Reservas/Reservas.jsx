@@ -2,7 +2,11 @@ import React from 'react'
 
 function Reservas() {
   return (
-    <div>Reservas</div>
+    <div>
+      <input type= 'date'>
+        
+      </input>
+    </div>
   )
 }
 
