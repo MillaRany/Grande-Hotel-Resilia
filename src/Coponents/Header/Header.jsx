@@ -8,7 +8,7 @@ const[isOpen, setOpen] = useState(false);
 
     <header>
 
-      <div className="nav">
+      <nav className="nav">
 
         <span className='logo'>
           <img src={logo} alt="logo" />
@@ -37,7 +37,7 @@ const[isOpen, setOpen] = useState(false);
          onClick={()=> setOpen(!isOpen)}>
           <div className='bar'></div>
         </div>
-      </div>
+      </nav>
     </header>
 
   )

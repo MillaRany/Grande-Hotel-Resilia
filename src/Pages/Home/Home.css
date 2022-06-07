@@ -15,8 +15,7 @@ body{
 }
 .sessao-hotel{
     text-align: center;
-    display: flex;
-    flex-direction: column;
+   
 }
 .div-carrossel{
     display: flex;
@@ -36,6 +35,7 @@ body{
     height: 500px;
     margin: 30px;
     word-wrap: break-word;
+    text-align: justify;
 }
 .sessao-acomodacao{
     background-color: rgba(128, 128, 128, 0.05);
