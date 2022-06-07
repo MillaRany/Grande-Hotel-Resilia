@@ -1,18 +1,26 @@
-import Hotel from '../Assets/Imagens/luxo.png'
-import Quarto from '../Assets/Imagens/master.jpeg'
-import Piscina from '../Assets/Imagens/superluxo.png'
+import piscina from '../Assets/Imagens/piscina.jpg'
+import reuniao from '../Assets/Imagens/reuniao.jpg'
+import centro from '../Assets/Imagens/centroConvecao.jpg'
+import spa from '../Assets/Imagens/spa.jpg'
 
 export const imagem = [
 
+    {title:'Piscina', 
+    subtitle:'Nosso piscina',
+    img: piscina},
+
     {title:'Hotel',
      subtitle:'Nosso hotel',
-      img: Hotel},
+      img: centro},
+
+      {title:'Piscina', 
+      subtitle:'Nosso piscina',
+       img: spa},
 
     {title:'Quarto',
      subtitle:'Nossos quartos',
-      img: Quarto},
+      img: reuniao}
 
-    {title:'Piscina', 
-    subtitle:'Nosso piscina',
-     img: Piscina}
+  
+    
 ]
