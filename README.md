@@ -1,9 +1,10 @@
 # Grande Hotel Resilia
 <p> Projeto do Módulo 05 do curso WebDev Full Stack da Resilia Educação. O projeto consiste em um site do Grande Hotel Resilia, com apresentação da página aberta aos usuários, com interatividade na página de reservas. O projeto conta com integração à API desenvolvida no Módulo 04</p>
 
- 
+ ## Veja o nosso site hospedado no vercel
+ [link](https://hotelresiliapalace.vercel.app/)
 
-## Tecnologias utilizadas
+### Tecnologias utilizadas
 ![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  ![image](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)  ![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)  ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) 
 ## Para executar o projeto
 Instale a dependência:
@@ -21,11 +22,7 @@ Use o comando para abrir no servidor local:
  yarn start
  ```
 
- ## Sobre o Projeto
- <p> Projeto do Módulo 05 do curso WebDev Full Stack da Resilia Educação. O projeto consiste em um site do Grande Hotel Resilia, com apresentação ao público e interatividade na página de reservas. O projeto conta com interatividade com o projeto do Módulo 04, onde foi desenvolvida uma API </p>
 
- <img src="src/assets/img/homePrint.jpg" width="" alt=""> 
-  </div>
 
  ### Veja o nosso site hospedado no vercel
  [link](https://hotelresiliapalace.vercel.app/)
