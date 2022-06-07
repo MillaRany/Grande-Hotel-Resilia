@@ -1,5 +1,5 @@
 # Grande Hotel Resilia
- <p> Projeto do Módulo 05 do curso WebDev Full Stack da Resilia Educação. O projeto consiste em um site do Grande Hotel Resilia, com apresentação ao público e interatividade na página de reservas. O projeto conta com interatividade com o projeto do Módulo 04, onde foi desenvolvida uma API </p>
+<p> Projeto do Módulo 05 do curso WebDev Full Stack da Resilia Educação. O projeto consiste em um site do Grande Hotel Resilia, com apresentação da página aberta aos usuários, com interatividade na página de reservas. O projeto conta com integração à API desenvolvida no Módulo 04</p>
 
  <img src="src/assets/img/homePrint.jpg" width="" alt=""> 
   </div>
