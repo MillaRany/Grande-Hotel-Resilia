@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +9,6 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    z-index: 3;
 }
 .nav > .logo{
     
@@ -19,6 +17,7 @@
 .item{
     color: #ffb703;
     font-size: 20px;
+    /* font-weight: bold; */
     margin: 15px;
     position: relative;
     opacity: 0.9;
@@ -41,12 +40,9 @@
     color: #ffb703;
 
 }
-.navItens{
-    z-index: 3;
-}
+
 .nav > .navItens > a:hover::before{
     width: 100%;
-
 }
 .navToggle{
     display: none;
