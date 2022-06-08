@@ -18,7 +18,7 @@ function Home() {
             <h2 className='titulo-hotel'>Hotel</h2>
             <p>Bem vindo ao Grande Hotel Resilia. Com uma estrutra completa, nosso hotel é perfeito para receber desde eventos coorporativos, até suas férias familiares.
             </p>
-            <p>  O hotel disponibiliza uma piscina exterior, um spa e um centro de fitness.
+            <p>  O hotel disponibiliza uma piscina exterior, um spa, centro de convenções e espaço fitness.
             </p>
             
             <p>
