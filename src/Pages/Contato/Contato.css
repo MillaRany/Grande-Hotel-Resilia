@@ -1,0 +1,53 @@
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    src: url('../../Assets/Fonts/Montserrat-Italic-VariableFont_wght.ttf')
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 200px;
+}
+.sessao-colaboradores{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.colaboradores{
+    display: flex;
+    align-items: row;
+    width: 100%;
+    justify-content: center;
+  }
+.txt-colaboradores{
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin: 30px;
+    color: #E58E1A;
+    font-weight: 100;
+}
+.container-colaboradores{
+    width: 32%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.txt-nome{
+   
+    text-decoration: none;
+     font-size: 20px;
+     font-family: 'Montserrat';
+     text-align: center;
+     color: #E58E1A;
+ }
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    
+}
+.Logo{
+    margin: 10px;
+} 
