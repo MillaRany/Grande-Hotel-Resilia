@@ -24,6 +24,7 @@ const Routes = () => {
     <Route path='/reservas' element={<Reservas/>}/>
     <Route path='/acomodacoes' element={<Acomodacoes/>}/>
     <Route path='/contato' element={<Contato/>}/>
+
     <Route path='/acomodacoes/suiteluxo' element={<SuiteLuxo/>}/>
     <Route path='/acomodacoes/suitesuperluxo' element={<SuiteSuperLuxo/>}/>
     <Route path='/acomodacoes/suitemaster' element={<SuiteMaster/>}/>
