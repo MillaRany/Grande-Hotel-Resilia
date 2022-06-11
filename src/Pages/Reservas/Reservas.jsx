@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react'
 import './Reservas.css'
 import axios from 'axios';
 import hotel from '../../Assets/Imagens/hotel.jpg'
-import './Reservas.css'
 
 
 
 function Reservas() {
+
   const [id, setId] = useState('')
   const [entrada, setEntrada] = useState('')
   const [saida, setSaida] = useState ('')
@@ -34,7 +34,6 @@ function Reservas() {
   })
   .catch((erro) => console.log(erro))
   }
-
   const atualizar = () => {
     // e.preventDefault()
     const url =`https://api-grande-hotel-resilia.herokuapp.com/diaria/${id}`

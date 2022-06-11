@@ -1,0 +1,87 @@
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    src: url('../../../Assets/Fonts/Montserrat-Italic-VariableFont_wght.ttf')
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 200px;
+}
+
+.suite-titulo {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin: 20px;
+    color: #E58E1A;
+    font-weight: 100;
+}
+
+.suite-descricao {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+}
+
+.suite-items {
+    background-color: rgba(128, 128, 128, 0.05);
+    padding: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.suite-lista > li {
+    padding: 18px 0;
+}
+
+.sessao-img {
+    width: 50%;
+    position: relative;
+    margin: auto;
+}
+
+.suite-img {
+    width: 100%;
+    height: 380px;
+}
+
+.suite-imagens {
+    margin: 50px 0;
+    display: flex;
+}
+
+.img-suite {
+    object-fit: cover;
+    height: 500px;
+    width: 25%;
+}
+
+@media (max-width:700px) {
+    .suite-descricao {
+        flex-direction: column;
+    }
+
+    .suite-items {
+        width: 100%;
+    }
+
+    .sessao-img {
+        width: 100%;
+    }
+
+    .suite-imagens {
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-suite {
+        width: 90%;
+    }
+}
