@@ -10,72 +10,76 @@
 body{
     margin: 0;
     padding: 0;
-    margin-bottom: 200px;
+    
 }
-.reservas{
+.img{
     width: 100%;
     height: 100%;
-    margin: auto;
+}
+.main-reservas{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    position: relative;
     align-items: center;
-  
 }
-.imgHotel{
-    width: 100%;
-   
-}
-.txtReservas{
+.h1{
     position: absolute;
-    top: 10%;
+    top: 20%;
     font-family: 'Montserrat';
     font-weight: 100;
     font-size: 5vw;
     color: white;
     text-shadow: 4px 4px 5px #000000;
-    }
-.form{
-    width: 60vw;
-    height: 10vw;
+}
+.formulario{
+    width: 95vw;
+    height: 13vw;
+    top: 40%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
     position: absolute;
+    justify-content: center;
     background-color:#e58d1a;
     padding: 5vw;
     border-radius: 20px;
-    box-shadow: 2px 2px rgba(255, 253, 253, 0.549);   
+    box-shadow: 2px 2px rgba(255, 253, 253, 0.549);
 }
+.txt-form{
+    font-family:'Montserrat';
 
-.sessao-input{
+}
+.conteiner-input{
     display: flex;
-    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.div-form{
+    display: flex;
+    gap: 10px;
+    place-items: center;
     flex-direction: column;
-    align-items: center;
-}
-.numeros{
- width: 2vw;
- height: 2vw;
- font-size: 1.1vw;
- border-radius: 4px;
- border: none;
- box-shadow: 2px 2px rgba(0, 0, 0, 0.549);
-
 
 }
-.data{
-    width: 11vw;
-    height: 3vw;
-    font-size: 1.1vw;
-    border-radius: 4px;
-    border: none;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.549);
-}   
-.btnForm{
-    font-size: 1.2vw;
-    padding: 8px;
+.num-reserva{
+    width: 9vh;
+    height: 2vh;
+}
+.quantidade{
+    width: 5vh;
+    height: 3vh;
+}
+.botao{
+    display: flex;
+    margin: 10px;
+    gap: 5vh;
+   justify-content: center;
+}
+.button-enviar{
+    font-size: 2vh;
+    padding: 5%;
     border-radius: 4px;
     font-size: 'Montserrat';
     background-color: #ffb703;
@@ -83,75 +87,91 @@ body{
     color: white;
     text-shadow: 2px 2px black;   
     box-shadow: 2px 2px rgba(0, 0, 0, 0.549);
-    margin-top: 2vh;
+    cursor: pointer;
 }
-.txt-input{
-    margin: 10px;
-    font-weight: 500 ;
-    font-size: 1.2vw;
-
+.button-deletar{
+    font-size: 2vh;
+    border-radius: 4px;
+    font-size: 'Montserrat';
+    background-color: #ffb703;
+    border: none;
+    color: white;
+    text-shadow: 2px 2px black;   
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.549);
+    cursor: pointer;
 }
-.txt-numero{
-    margin: 10px;
-    font-weight: 500 ;
-    font-size: 1.2vw;
+.button-atualizar{
+    font-size: 2vh;
+    border-radius: 4px;
+    font-size: 'Montserrat';
+    background-color: #ffb703;
+    border: none;
+    color: white;
+    text-shadow: 2px 2px black;   
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.549);
+    cursor: pointer;
 }
-
-.resposta{
+.txt-lista{
+    font-family: 'Montserrat';
+    font-weight: 100;
+    font-size: 5vh;
+    color: black;
+}
+.sessao-reservas{
+    display: flex;
     width: 100%;
-    height: 500px;
-    background-color: pink;
+    place-items: center;
+    flex-direction: column;
+
 }
+.container-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+.lista{
+    background-color: #e58d1a;
+    width: 30%;
+    list-style: none;
+    margin: 20px;
+}
+.lista-p{
+    display: flex;
+    margin: 10px;
+
+}
+
+
 @media (max-width:700px){
- 
-.reservas{
-   width: 100%;
-   height: 500px;
-}
- .form{
-     display: flex;
-     flex-direction: column;
-     border-radius: 0px; 
-     width: 100%;
-     height: 100%;
-     justify-content: center;
-     
-     
+    .img{
+        display: none ;
     }
- 
-.sessao-input{
-    margin: 4px;
-    width: 200px;
+    .formulario{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px; 
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+
     }
- .data{
-    width: 45vw;
-    height: 9vw;
-    font-size: 4vw;
-    text-align: center;    
-}
-.check{
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-}
-.numeros{
-    width: 8vw;
-    height: 8vw;
-    font-size: 3vw;
-    text-align: center;
-}
-.num{
-    
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    
-}
-.btnForm{
-    font-size: 4vw;
-    padding: 10px;
-    margin: 30px;
-    
-}
+    .conteiner-input{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;   
+        margin: 1vh;
+    }
+    .div-form{
+        display: flex;
+        flex-direction: row;
+        margin: 2vh;
+    }
+    .lista{
+        width: 100%;
+    }
 
 }

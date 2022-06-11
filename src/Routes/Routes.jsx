@@ -21,6 +21,7 @@ const Routes = () => {
     <Route path='/reservas' element={<Reservas/>}/>
     <Route path='/acomodacoes' element={<Acomodacoes/>}/>
     <Route path='/contato' element={<Contato/>}/>
+    <Route path='/minhasreservas' element={<minhasreservas/>}/>
     </Switch>
     <Footer />
     </BrowserRouter>
